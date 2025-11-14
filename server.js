@@ -14,7 +14,7 @@ const port = 4000
 // middleware
 app.use(express.json())
 app.use(cors({
-    origin: ["http://localhost:3000","https://mern-food-delivery-app-frontend.vercel.app","https://mern-food-delivery-app-admin.vercel.app"],
+    origin: ["http://localhost:3000","https://mern-food-delivery-app-frontend.netlify.app","https://mern-food-delivery-app-admin.netlify.app"],
     methods: ["GET","POST","PUT","DELETE"],
     credentials: true
 }))
